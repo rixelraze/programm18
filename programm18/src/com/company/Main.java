@@ -8,10 +8,10 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введите x: ");
-        double x = scanner.nextInt();
+        double x = scanner.nextDouble();
 
         System.out.print("Введите y: ");
-        double y = scanner.nextInt();
+        double y = scanner.nextDouble();
 
         Formula formula = Formula.getFormula();
         formula.setFormula(x, y);
